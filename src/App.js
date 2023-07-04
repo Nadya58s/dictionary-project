@@ -14,7 +14,24 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <small>Coded by Nadia Sylvester</small>
+          <small>
+            Coded by Nadia Sylvester, open-source on{" "}
+            <a
+              href="https://github.com/Nadya58s/dictionary-project"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://react-dictionary-app1.netlify.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
